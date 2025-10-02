@@ -1,7 +1,20 @@
 🗣️ Multilingual Hate Speech Detection
 
-This project implements a Multilingual Hate Speech Detection System that supports text, audio, and video inputs. It leverages fine-tuned transformer models (Llama 2 / HuggingFace) along with speech-to-text pipelines to classify content as hate speech or non-hate speech.
+A Multilingual Hate Speech Detection System that supports text, audio, and video inputs. It uses fine-tuned transformer models (Llama 2 / HuggingFace) along with speech-to-text pipelines to classify content as hate speech or non-hate speech.
 
+✨ Features
+
+🔤 Text Classification – Detects hate speech in multilingual text
+
+🎙️ Audio Support – Converts speech to text via Google Speech Recognition API
+
+🎥 Video Support – Uses Whisper to transcribe video / YouTube content before classification
+
+📊 Performance – Achieved 97% accuracy on benchmark dataset
+
+🌍 Multilingual – Supports multiple languages
+
+📂 Project Structure
 📂 Project Structure
 MultiLingualHateSpeech/
 │
