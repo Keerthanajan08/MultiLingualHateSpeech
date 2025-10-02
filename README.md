@@ -1,55 +1,32 @@
-# Content-Based-Movie-Recommender-System-with-sentiment-analysis-using-AJAX
+# Multilingual Hate Speech Detection
 
-![Python](https://img.shields.io/badge/Python-3.8-blueviolet)
-![Framework](https://img.shields.io/badge/Framework-Flask-red)
-![Frontend](https://img.shields.io/badge/Frontend-HTML/CSS/JS-green)
-![API](https://img.shields.io/badge/API-TMDB-fcba03)
+A Multilingual Hate Speech Detection System that supports text, audio, and video inputs. It uses fine-tuned transformer models (Llama 2 / HuggingFace) along with speech-to-text pipelines to classify content as hate speech or non-hate speech.
 
-**Updated version of this application can be found at:** https://github.com/kishan0725/The-Movie-Cinema
+## ✨ Features
 
-Content Based Recommender System recommends movies similar to the movie user likes and analyses the sentiments on the reviews given by the user for that movie.
+🔤 Text Classification – Detects hate speech in multilingual text
 
-The details of the movies(title, genre, runtime, rating, poster, etc) are fetched using an API by TMDB, https://www.themoviedb.org/documentation/api, and using the IMDB id of the movie in the API, I did web scraping to get the reviews given by the user in the IMDB site using `beautifulsoup4` and performed sentiment analysis on those reviews.
+🎙️ Audio Support – Converts speech to text via Google Speech Recognition API
 
-Check out the live demo: https://mrswsa.herokuapp.com/
+🎥 Video Support – Uses Whisper to transcribe video / YouTube content before classification
 
-Link to youtube demo: https://www.youtube.com/watch?v=dhVePtyECFw
+📊 Performance – Achieved 97% accuracy on benchmark dataset
 
-# Note
+🌍 Multilingual – Supports multiple languages
 
-> #### Use this URL - https://the-movie-buff.herokuapp.com/ - in case if you see application error in the above mentioned URL
+## 🛠️ Tech Stack
 
-## The Movie Cinema
+Python 3.9+
 
-I've developed a similar application called "The Movie Cinema" which supports all language movies. But the only thing that differs from this application is that I've used the TMDB's recommendation engine in "The Movie Cinema". The recommendation part developed by me in this application doesn't support for multi-language movies as it consumes 200% of RAM (even after deploying it to Heroku) for generating Count Vectorizer matrix for all the 700,000+ movies in the TMDB. 
+PyTorch, HuggingFace Transformers
 
-Link to "The Movie Cinema" application: https://the-movie-cinema.herokuapp.com/
+Google Speech Recognition API
 
-Don't worry if the movie that you are looking for is not auto-suggested. Just type the movie name and click on "enter". You will be good to go eventhough if you made some typo errors.
+OpenAI Whisper
 
-Source Code: https://github.com/kishan0725/The-Movie-Cinema
+Pandas, NumPy, Scikit-learn
 
-## Featured in Krish's Live Session on YouTube
-
-[![krish youtube](https://github.com/kishan0725/AJAX-Movie-Recommendation-System-with-Sentiment-Analysis/blob/master/static/krish-naik.PNG)](https://www.youtube.com/watch?v=A_78fGgQMjM)
-
-## How to get the API key?
-
-Create an account in https://www.themoviedb.org/, click on the `API` link from the left hand sidebar in your account settings and fill all the details to apply for API key. If you are asked for the website URL, just give "NA" if you don't have one. You will see the API key in your `API` sidebar once your request is approved.
-
-## How to run the project?
-
-1. Clone or download this repository to your local machine.
-2. Install all the libraries mentioned in the [requirements.txt](https://github.com/kishan0725/Movie-Recommendation-System-with-Sentiment-Analysis/blob/master/requirements.txt) file with the command `pip install -r requirements.txt`
-3. Get your API key from https://www.themoviedb.org/. (Refer the above section on how to get the API key)
-3. Replace YOUR_API_KEY in **both** the places (line no. 15 and 29) of `static/recommend.js` file and hit save.
-4. Open your terminal/command prompt from your project directory and run the file `main.py` by executing the command `python main.py`.
-5. Go to your browser and type `http://127.0.0.1:5000/` in the address bar.
-6. Hurray! That's it.
-
-## Architecture
-
-![IMG-20210306-WA0012](https://user-images.githubusercontent.com/36665975/110212434-597bb700-7ec1-11eb-9ffa-7ac319e33123.jpg)
+Matplotlib / Seaborn
 
 ## Similarity Score : 
 
