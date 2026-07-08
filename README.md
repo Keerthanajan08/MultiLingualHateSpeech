@@ -31,7 +31,7 @@ Matplotlib / Seaborn
 ## Getting Started
 
 1️⃣ Clone the Repository
-git clone https://github.com/username/MultiLingualHateSpeech.git
+git clone https://github.com/Keerthanajan08/MultiLingualHateSpeech.git
 cd MultiLingualHateSpeech
 
 2️⃣ Install Dependencies
