@@ -29,7 +29,7 @@ Audio and video inputs are automatically transcribed before being classified usi
 # 🏗️ System Architecture
 
 <p align="center">
-<img src="images/architecture.png" width="900">
+<img src="/UML.PNG" width="900">
 </p>
 
 ---
