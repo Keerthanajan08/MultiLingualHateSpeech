@@ -189,7 +189,7 @@ Prediction
 ## User Interface
 
 <p align="center">
-<img src="images/ui.png" width="900">
+<img src="/Picture1.png" width="900">
 </p>
 
 ---
@@ -197,7 +197,7 @@ Prediction
 ## Sample Prediction
 
 <p align="center">
-<img src="images/results.png" width="900">
+<img src="/Picture2.png" width="900">
 </p>
 
 ---
