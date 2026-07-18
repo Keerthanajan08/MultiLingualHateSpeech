@@ -177,7 +177,7 @@ Prediction
 
 | Metric | Value |
 |---------|------:|
-| Accuracy | **97%** |
+| F1 Score | **0.96** |
 | Model | Fine-Tuned LLaMA 2 |
 | Input Modalities | Text, Audio, Video |
 | Languages | Multilingual |
@@ -215,7 +215,6 @@ Published in **IEEE Xplore (IACIS 2024).**
 # 🔬 Future Work
 
 - Support for Instagram Reels
-- Support for YouTube links
 - Support for X (Twitter) videos
 - Real-time moderation
 - Explainable AI predictions
