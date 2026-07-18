@@ -244,8 +244,8 @@ This project is licensed under the MIT License.
 
 **Keerthana Sasidaran**
 
-📧 Email: your-email
+📧 Email: keerthana08sasidaran@gmail.com
 
-🔗 LinkedIn: your-linkedin
+🔗 LinkedIn: [your-linkedin](https://linkedin.com/in/keerthana-sasidaran-64ba24368/)
 
 💻 GitHub: https://github.com/Keerthanajan08
