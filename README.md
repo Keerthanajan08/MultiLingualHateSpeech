@@ -208,6 +208,7 @@ Prediction
 
 Published in **IEEE Xplore (IACIS 2024).**
 
+{Publication](https://doi.org/10.1109/IACIS61494.2024.10722018)
 > This repository contains the implementation of the research presented in the publication.
 
 ---
@@ -246,6 +247,5 @@ This project is licensed under the MIT License.
 
 📧 Email: keerthana08sasidaran@gmail.com
 
-🔗 LinkedIn: [your-linkedin](https://linkedin.com/in/keerthana-sasidaran-64ba24368/)
+🔗 LinkedIn: [linkedin](https://linkedin.com/in/keerthana-sasidaran-64ba24368/)
 
-💻 GitHub: https://github.com/Keerthanajan08
