@@ -208,7 +208,7 @@ Prediction
 
 Published in **IEEE Xplore (IACIS 2024).**
 
-{Publication](https://doi.org/10.1109/IACIS61494.2024.10722018)
+[Publication](https://doi.org/10.1109/IACIS61494.2024.10722018)
 > This repository contains the implementation of the research presented in the publication.
 
 ---
